@@ -20,6 +20,11 @@ body {
     background-color: #c4cfd8;
 }
 
+.navbar-collapse {
+    background-color: #4b4b50;
+    border: none !important;
+}
+
 @media(min-width:768px) {
     body {
         margin-top: 50px;
@@ -175,10 +180,12 @@ body {
 
 .side-nav>li>ul>li>a>.success {
     background-color: #00ae8a;
+    float: right;
 }
 
 .side-nav>li>ul>li>a>.danger {
     background-color: #f34c42;
+    float: right;
 }
 
 /* Custom Colored Panels */
