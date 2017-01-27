@@ -195,7 +195,7 @@ body {
 }
 
 .panel {
-    border-color: transparent;
+    border-color: #d3dce3;
 }
 
 .panel> .panel-heading {
