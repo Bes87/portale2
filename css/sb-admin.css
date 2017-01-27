@@ -28,7 +28,7 @@ body {
 }
 
 .huge {
-    font-size: 50px;
+    font-size: 30px !important;
     line-height: normal;
 }
 
@@ -51,6 +51,13 @@ body {
 .top-nav>li {
     display: inline-block;
     float: left;
+    color: #fff;
+}
+
+.top-nav>li:first-child {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 20px;
 }
 
 .top-nav>li>a {
